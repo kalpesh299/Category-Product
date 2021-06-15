@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap");
+body {
+  height: 100vh;
+  background: #343a40;
+}
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  font-family: "Big Shoulders Stencil Display", cursive;
+}
+.page {
+  color: white;
+}
+.btn-primary {
+  background-color: rgb(33, 184, 136) !important;
+  color: white !important;
+}
+.btn-primary:hover {
+  background-color: white !important;
+  color: rgb(33, 184, 136) !important;
+}
+.fa-times {
+  color: rgb(224, 67, 19) !important;
+}
+.fa-pencil-alt {
+  color: rgb(18, 201, 185) !important;
+}
+.mainContainer h3 {
+  margin-left: 40px;
+}
+.listContainer {
+  margin-top: 100px;
+}
+
+.listContainer ul {
+  width: 70%;
+  margin-top: 14px;
+  list-style: none;
+}
+
+.listContainer ul li {
+  color: #5840bb;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px 7px 10px 7px;
+  border-bottom: 1px solid #858686;
+  border-left: 1px solid #858686;
+  border-right: 1px solid #858686;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listContainer ul li .pencil {
+  text-align: right;
+}
+
+.listContainer ul li:first-child {
+  border-top: 1px solid #858686;
+}
+.header {
+  color: aquamarine;
+}
+
+.img {
+  width: 50%;
+  height: 30vh;
+}
+
+.cardData {
+  color: aquamarine;
+}

@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  margin: 7px 7px;
+  box-shadow: 0 4px 8px 0 #999;
+  border: none;
+}
+.no-item {
+  color: red;
+}
+.product .style {
+  display: grid;
+  grid-template-columns: 300px 230px;
+  margin: 10px;
+  align-items: baseline;
+  margin-right: 20px;
+}
